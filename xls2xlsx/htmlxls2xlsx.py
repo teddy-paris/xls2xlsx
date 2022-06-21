@@ -34,10 +34,10 @@ import yaml
 import sys
 import calendar
 try:
-    import currency_symbols.constants as currency_symbols_constants
+    import currency_symbols._constants as currency_symbols_constants
 except Exception:
     import importlib
-    currency_symbols_constants = importlib.import_module('currency-symbols.constants')
+    currency_symbols_constants = importlib.import_module('currency-symbols._constants')
 
 TRACE=False
 
