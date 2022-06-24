@@ -44,7 +44,7 @@ setup(
     long_description_content_type='text/x-rst',
     include_package_data=True,
     keywords='xls2xlsx',
-    name='des_xls2xlsx',
+    name='mdaxls2xlsx',
     packages=find_packages(include=['xls2xlsx', 'xls2xlsx.*']),
     setup_requires=setup_requirements,
     test_suite='tests',
